@@ -1,1 +1,1 @@
-# HighlandsCoffee
+Highlands Coffee apps - Learn React Native
