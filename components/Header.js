@@ -64,8 +64,8 @@ class Header extends React.Component {
     switch (title) {
       case 'Home':
         return ([
-          <BellButton key='chat-home' navigation={navigation} isWhite={white} />,
-          <BasketButton key='basket-home' navigation={navigation} isWhite={white} />
+          <BellButton key='chat-home' navigation={navigation} isWhite={red} />,
+          <BasketButton key='basket-home' navigation={navigation} isWhite={red} />
         ]);
       case 'Deals':
         return ([

@@ -45,3 +45,4 @@ xcuserdata/
 
 # Dependency directories
 node_modules/
+.expo

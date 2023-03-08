@@ -12,6 +12,7 @@ import { Block, Text, theme } from "galio-framework";
 import { Button } from "../components";
 import { Images, argonTheme } from "../constants";
 import { HeaderHeight } from "../constants/utils";
+import { ProfilePicture } from "../constants/Images";
 
 const { width, height } = Dimensions.get("screen");
 
@@ -34,7 +35,7 @@ class Profile extends React.Component {
               <Block flex style={styles.profileCard}>
                 <Block middle style={styles.avatarContainer}>
                   <Image
-                    source={{ uri: 'assets/imgs/highlands-coffee-logo-onboarding.png', }}
+                    source={{ uri: Images.ProfilePicture }}
                     style={styles.avatar}
                   />
                 </Block>
@@ -136,7 +137,7 @@ class Profile extends React.Component {
                     <Button
                       small
                       color="transparent"
-                      textStyle={{ color: "#5E72E4", fontSize: 12, marginLeft: 24 }}
+                      textStyle={{ color: "#5E72E4", fontSize: 12, marginLeft: 4 }}
                     >
                       View all
                     </Button>
